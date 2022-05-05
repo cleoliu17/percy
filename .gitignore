@@ -1,2 +1,4 @@
 sercyEnv
 .venv
+*.pyc
+node_modules
