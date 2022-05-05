@@ -26,7 +26,7 @@ percy_snapshot(browser, "Empty Todo State")
 
 # snapshot with a new todo
 new_todo_input = browser.find_element_by_class_name("new-todo")
-new_todo_input.send_keys("Try Percy3-1")
+new_todo_input.send_keys("Try Percy3-3")
 new_todo_input.send_keys(Keys.ENTER)
 percy_snapshot(browser, "With a Todo")
 
